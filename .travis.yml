@@ -16,4 +16,5 @@ notifications:
 
 script:
 - docker build -t scottmiller171/docker-java-bash:latest .
-- docker run scottmiller171/docker-java-bash:latest /bin/bash java -version
+- docker run scottmiller171/docker-java-bash:latest /bin/bash
+- docker run scottmiller171/docker-java-bash:latest java -version
