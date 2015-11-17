@@ -32,4 +32,4 @@ env:
 
 script:
 - docker build -t scottmiller171/docker-java-bash:"$VERSION" ./"$VERSION"
-- docker run -it scottmiller171/docker-java-bash:"$VERSION" ./"$VERSION" java -version
+- docker run -it scottmiller171/docker-java-bash:"$VERSION" java -version
